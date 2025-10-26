@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CourtFlow - Legal Documents</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .container {
+            background-color: white;
+            padding: 60px 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            margin-top: 40px;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .logo {
+            font-size: 48px;
+            font-weight: 700;
+            color: #2563eb;
+            margin-bottom: 10px;
+        }
+        .tagline {
+            color: #6b7280;
+            font-size: 18px;
+        }
+        h1 {
+            color: #1e40af;
+            margin-bottom: 30px;
+            text-align: center;
+            font-size: 32px;
+        }
+        .document-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 40px 0;
+        }
+        .document-card {
+            background: #f9fafb;
+            border: 2px solid #e5e7eb;
+            border-radius: 8px;
+            padding: 30px;
+            text-align: center;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            color: inherit;
+            display: block;
+        }
+        .document-card:hover {
+            border-color: #2563eb;
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.2);
+            transform: translateY(-2px);
+        }
+        .document-icon {
+            font-size: 48px;
+            margin-bottom: 15px;
+        }
+        .document-title {
+            font-size: 20px;
+            font-weight: 600;
+            color: #1e40af;
+            margin-bottom: 10px;
+        }
+        .document-description {
+            font-size: 14px;
+            color: #6b7280;
+            line-height: 1.5;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 50px;
+            padding-top: 30px;
+            border-top: 1px solid #e5e7eb;
+            color: #6b7280;
+        }
+        .contact-info {
+            background-color: #f3f4f6;
+            padding: 25px;
+            border-radius: 8px;
+            margin-top: 40px;
+        }
+        .contact-info h3 {
+            color: #1e40af;
+            margin-top: 0;
+            margin-bottom: 15px;
+        }
+        .contact-info p {
+            margin: 8px 0;
+        }
+        a {
+            color: #2563eb;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        .last-updated {
+            font-size: 14px;
+            color: #9ca3af;
+            font-style: italic;
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🎾 CourtFlow</div>
+            <div class="tagline">Tennis Coaching Management Platform</div>
+        </div>
+
+        <h1>Legal Documents</h1>
+        
+        <p style="text-align: center; color: #6b7280; margin-bottom: 40px;">
+            Welcome to CourtFlow's legal documentation hub. Here you'll find our privacy policy and other important legal information.
+        </p>
+
+        <div class="document-grid">
+            <a href="privacy-policy.html" class="document-card">
+                <div class="document-icon">🔒</div>
+                <div class="document-title">Privacy Policy</div>
+                <div class="document-description">
+                    Learn how we collect, use, and protect your data. Updated for UK GDPR compliance.
+                </div>
+            </a>
+
+            <a href="#terms" class="document-card" style="opacity: 0.6; pointer-events: none;">
+                <div class="document-icon">📄</div>
+                <div class="document-title">Terms of Service</div>
+                <div class="document-description">
+                    Coming soon - Terms and conditions for using CourtFlow.
+                </div>
+            </a>
+
+            <a href="#dpa" class="document-card" style="opacity: 0.6; pointer-events: none;">
+                <div class="document-icon">🤝</div>
+                <div class="document-title">Data Processing Agreement</div>
+                <div class="document-description">
+                    Coming soon - DPA for clubs using CourtFlow.
+                </div>
+            </a>
+        </div>
+
+        <div class="contact-info">
+            <h3>Contact Us</h3>
+            <p>If you have questions about our legal documents or data practices:</p>
+            <p><strong>Email:</strong> <a href="mailto:ottosterner1@gmail.com">ottosterner1@gmail.com</a></p>
+            <p><strong>Location:</strong> London, United Kingdom</p>
+        </div>
+
+        <div class="footer">
+            <p><strong>About CourtFlow</strong></p>
+            <p>CourtFlow is a B2B platform that provides tennis clubs and coaches with tools to manage coaching programmes, track attendance, and generate progress reports.</p>
+            <p class="last-updated">Last Updated: October 26, 2025</p>
+            <p style="margin-top: 30px;">© 2025 CourtFlow. All rights reserved.</p>
+        </div>
+    </div>
+</body>
+</html>
